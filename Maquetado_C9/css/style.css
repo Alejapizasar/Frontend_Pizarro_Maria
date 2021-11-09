@@ -1,8 +1,361 @@
-header{
-    background-color: black;
-    color:blanchedalmond;
+/* parte superior pagina*/
+
+#top {
+    background-color: #222;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
 }
 
-.bannercolor{
-    color:blanchedalmond;
+.seleccionables {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+background-color: #222;
+color: #F3F3F3;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+}
+
+/* parte naranja */
+
+.frontcatdog {
+    background-color: #F0A83E;
+}
+
+#frontcat{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+color: #3C2313;
+}
+
+strong{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+.options {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+color: #FFFFFF;
+display: flex;
+}
+
+/* aqui va el fondo grande*/
+
+#fondogrande {
+    width: 100%;
+    display: block;
+}  
+
+#placertenerteaqui {
+
+position: absolute;    
+width: 345px;
+height: 35px;
+left: 658px;
+top: 246px;
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #3C2313;
+background-color: #ccc;
+}
+
+#cdescuentos {
+    position: absolute;   
+    width: 190px;
+    height: 19px;
+    left: 740px;
+    top: 303px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;    
+    text-align: center;
+    color: #3C2313;
+}
+
+#loscomederos {
+position: absolute;   
+width: 95px;
+height: 19px;
+left: 790px;
+top: 349px;
+font-family:'Roboto', sans-serif;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+background-color: #F0A83e;
+}
+
+/* Productos destacados */
+
+#h1titulo {
+    display: block;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+#imagetitulo {
+display:block;
+margin:auto;
+}
+
+#selecciontitulo {
+display: block;
+text-align: center;
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #666666;
+}
+
+/* los cajones de productos */
+
+.cajonesproductos {
+display: inline-block;
+background: #FBFAF6;
+text-align: center;
+}
+
+
+.descripcionproductos {
+font-family:'Roboto', sans-serif;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #3C2313;
+}
+
+.precio {
+
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+}
+
+ /* contactanos */
+
+#h3contactanos {
+    display: block;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+}
+
+#h4resetear{
+    display: inline-block;
+    text-align: center;
+    background: #8A8787;
+    width: 110px;
+height: 34px;
+left: calc(50% - 110px/2 - 52px);
+top: calc(50% - 34px/2 + 453.5px);
+    border-radius: 15px;
+    font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+font-family:'Roboto', sans-serif;
+}
+
+#h4enviar{
+
+display: inline-block;
+text-align: center;   
+background-color:   #F0A83E;
+border-radius: 15px;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+font-family:'Roboto', sans-serif;
+width: 110px;
+height: 34px;
+left: calc(50% - 110px/2 + 64px);
+top: calc(50% - 34px/2 + 453.5px);
+
+}
+
+.contactanosdatos {
+display: block;
+width: 340px;
+height: 40px;
+left: calc(50% - 340px/2 + 1px);
+top: calc(50% - 40px/2 + 275.5px);
+background: #3C2313;
+border-radius: 15px;
+font-family:'Roboto', sans-serif;
+font-size: 9px;
+line-height: 11px;
+color: #FFFFFF;
+text-align: left;
+}
+
+/* bloque de suscripcion */
+
+#suscribete{
+    background: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.suscribete {
+display: flex;
+width: 288px;
+height: 23px;
+left: calc(50% - 288px/2 - 295px);
+top: calc(50% - 23px/2 + 577px);
+font-family:'Roboto', sans-serif;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+#textosuscribete {
+    width: 70px;
+    height: 34px;
+    left: calc(50% - 70px/2 + 430px);
+    top: calc(50% - 34px/2 + 575.5px);
+    background: #3C2313;
+    border-radius: 15px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#textosuscribete1 {
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+#textocorreo{
+display:block;
+width: 271px;
+height: 40px;
+left: calc(50% - 271px/2 + 254.5px);
+top: calc(50% - 40px/2 + 575.5px);
+background: #FFFFFF;
+border-radius: 15px;
+width: 115px;
+height: 11px;}
+
+#textocorreo1 {
+display: block;
+left: calc(50% - 115px/2 + 184.5px);
+top: calc(50% - 11px/2 + 575px);
+font-size: 9px;
+line-height: 11px;
+color: #A0A0A0;
+font-family:'Roboto', sans-serif;
+}
+
+#ultimaseccion {
+    background: #3C2313;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+.claseh3ultimaseccion {
+    display: inline-block;
+font-family:'Roboto', sans-serif;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+.ultimoseccionp{
+font-family:'Roboto', sans-serif;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+color: #8A8787;
+}
+
+#frontcatfinal {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+#catdogfinal {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F0A83E;
+}
+
+/* footer*/
+
+#sectionfooter {
+    background: #222222;
+    margin: auto;
+}
+
+.footer{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    margin: auto;
 }
