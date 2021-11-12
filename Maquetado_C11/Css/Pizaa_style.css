@@ -1,0 +1,128 @@
+/*header*/ 
+.blackbackground { 
+    background-color:#222;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+#imagenpizzaheader {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+.pizza {
+    size: auto;
+    margin: auto;
+}
+#fontandpizzaheader{
+    font-family: 'Roboto', sans-serif;
+    font-size:24px;
+}
+.greenletter {
+    font-family: 'Roboto', sans-serif;
+    color: #39B24A;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 28px;
+}
+.whiteletter{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 28px;
+}
+.redletter{
+    font-family: 'Roboto', sans-serif;
+    color: #FC200C;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 28px;
+}
+#navlist {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-top: 30px;
+    font-weight: normal;
+}
+.spaceli {
+    margin-right: 15px;
+}
+.whitelist {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: normal;
+}
+/*cuerpo*/
+body{
+    background-color: #E5E5E5;
+}
+#sectionppl {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    align-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+}
+#caja1 {
+    background-image: url(../Img/delivery.png);
+    background-size: cover;
+    width: 491px;
+    height: 350px;
+}
+.fontred{
+    font-family: 'Roboto', sans-serif;
+    color:red;
+}
+#fontwhite {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#letraenvio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+#caja2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    width: 491px;
+    height: 350px;
+}
+#ingredientes {
+    margin-top: 50px;
+}
+#podio {
+color:red;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+position: relative;
+left: 200px;
+}
+/*footer*/
+#fontandpizzafooter{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+#imagenpizzafooter {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
