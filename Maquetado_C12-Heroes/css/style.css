@@ -1,0 +1,365 @@
+/* parte superior pagina mini banner negro*/
+#top {
+    background-color: #222;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 90px;
+}
+#seleccion {
+    display: flex;
+    justify-content: space-between;
+}
+.seleccionables {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #222;
+    color: #F3F3F3;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+}
+/* parte naranja */
+#orangepart {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    align-items: center;
+    padding: 10px;
+}
+#logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+}
+#options {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+#logocatdog {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #3C2313;
+    text-align: center;
+}
+#logo-cat-dog {
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.options-categoria {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+}
+/* seccion imagen de fondo*/
+#backgroundimage {
+    background-image: url(../Img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size:cover;
+    width: 100%;
+    height:500px;
+}
+#text-background {
+    display: flex;
+}
+#placertenerteaqui {
+    position: absolute;    
+    width: 345px;
+    height: 35px;
+    left: 800px;
+    top: 246px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    background-color: #ccc;
+    border-radius: 5px;
+    padding:10px;
+}
+#cdescuentos {
+    position: absolute;   
+    width: 190px;
+    height: 19px;
+    left: 880px;
+    top: 318px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;    
+    text-align: center;
+    color: #3C2313;
+}
+#loscomederos {
+    border-radius: 5px;
+    position: absolute;
+    width: 95px;
+    height: 19px;
+    left: 920px;
+    top: 349px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #F0A83e;
+    padding: 12px;
+} 
+/*seccion titulo grande*/
+#seccion-titulo-grande {
+    background-color: #E5E5E5; 
+}
+.seccion-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+#h1titulo {
+    display: block;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+#imagetitulo {
+display:block;
+margin:auto;
+}
+#selecciontitulo {
+    display: block;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+}
+/* seccion cajones de productos */
+#cajonesproductos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.cajones {
+    background: #FBFAF6;
+    margin-left:30px;
+}
+.descripcionproductos {
+font-family:'Roboto', sans-serif;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #3C2313;
+text-align: center;
+}
+.precio {
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+    text-align: center;
+}
+ /* seccion contactos */
+.contactanosdatos {
+    display: block;
+    width: 340px;
+    background: #3C2313;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 12px;
+} 
+#h3contactanos {
+    display: block;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+}
+#figuras-boton {
+    display: flex;
+    justify-content: space-between;
+}
+#h4resetear{
+    background: #8A8787;
+    border-radius: 15px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    width: 110px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#h4enviar{
+    background-color: #F0A83E;
+    border-radius: 15px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    width: 110px;
+    height: 34px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* bloque de suscripcion parte naranja */
+#suscribete{
+    background: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.suscribete-imagen{
+    display: flex;
+    align-items: center;
+}
+.suscribete {
+    display: flex;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 12px;
+} 
+#textocorreo{
+    display: flex;
+    border-radius:15px;
+    background-color: #E5E5E5;
+    font-family:'Roboto', sans-serif;
+    color: #A0A0A0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9px;
+    Width:271px;
+    Height:35px;
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+#textosuscribete {
+    display: flex;
+    border-radius:15px;
+    background-color: #3C2313;
+    font-family:'Roboto', sans-serif;
+    color: #ffff;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9px;
+    Width: 70px;
+    Height:34px; 
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+/* bloque suscripcion parte marron */
+#ultimaseccion {
+    background: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 5px 50px;
+    Height:284px;
+}
+.cajones-seccion-marron{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+#cajoneraiconos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.span-bloque-marron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-left: 15px;
+} 
+.claseh3ultimaseccion {
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.ultimoseccionp{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+    margin-top: 0px;
+}
+#frontcatfinal {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+#catdogfinal {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F0A83E;
+}
+/* footer*/
+#sectionfooter {
+    background: #222222;
+    margin: auto;
+}
+.footer{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+/*hay que buscar la forma para acortar o agrupar clases*/
